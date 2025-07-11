@@ -77,7 +77,7 @@ content:
           - 보안취약성 점검 보완(RSA 암호화 구현)
           
           **시스템 안정성 및 모니터링**
-          - 프로덕션 환경에서 발생하는 Exception 및 에러 로그 분석을 통한 장애 원인 파악 및 신속한 대응
+          - 프로덕션 환경에서 발생하는 Exception 및 에러 로그 분석을 통한 장애 원인 파악 및 대응
           - 에러코드 리팩토링
           
           **팀 협업 및 프로세스 개선**
@@ -95,13 +95,13 @@ content:
           익명 채팅 웹 어플리케이션(사이드 프로젝트)
         description: | # this will include new lines to allow paragraphs
           - **Docker Compose 인프라**: 멀티 컨테이너 환경으로 MySQL, Nginx, 애플리케이션 서버 통합 관리
-          - **Jenkins CI/CD 파이프라인**: GitHub 연동 자동 빌드/테스트/배포 시스템 구축으로 개발 효율성 향상
-          - **ELK Stack 모니터링**: Elasticsearch, Logstash, Kibana 기반 로그 수집 및 실시간 모니터링 시스템
+          - **Jenkins CI/CD 파이프라인**: GitHub 연동 자동 빌드/테스트/배포 시스템 구축
+          - **ELK Stack 모니터링**: Elasticsearch, Logstash, Kibana 기반 로그 수집 및 실시간 모니터링 시스템 구현
           - **Elastic APM 성능 분석**: 애플리케이션 성능 추적 및 JVM 메모리, API 응답시간 모니터링
           - **Nginx 리버스 프록시**: HTTPS 보안 적용 및 Let's Encrypt 자동 SSL 인증서 관리
           - **Slack API 연동**: 시스템 에러 발생 시 실시간 알림 시스템으로 장애 대응 시간 단축
           - **인프라 자동화**: Docker 기반 개발/운영 환경 일치 및 원클릭 배포 시스템 구현
-          - **성과**: 개인 프로젝트로 **엔터프라이즈급 인프라** 구축, DevOps 전 영역 경험 확보
+          - **성과**: 개인 프로젝트로 인프라 구축, DevOps 영역 경험 확보
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
@@ -181,18 +181,6 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: GSITM 부트캠프<br> 금융 프로젝트
-        caption: 2024.06 - 2024.07
-        quote: >
-          금융사 금융상품 마케팅에 필요한 백오피스 시스템 개발
-        description: | # this will include new lines to allow paragraphs
-          - **시스템 설계**: 요구사항 정의서, 기능구조도, ERD 설계 등 전체 시스템 아키텍처 설계
-          - **Spring Boot 기반 백엔드 개발**: 고객관리, 상품관리, 상품설계 기능의 RESTful API 구현
-          - **데이터베이스 설계 및 구현**: MySQL과 JPA를 활용한 정규화된 테이블 설계 및 데이터 접근 로직 개발
-          - **외부 API 연동**: 한국수출입은행 환율 Open API 연동으로 실시간 환율 정보 제공
-          - **금융계산 엔진 개발**: 대출상품별 원리금균등/원금균등 상환방식 계산 로직 구현
-          - **데이터 검증 및 예외처리**: Bean Validation 기반 입력 데이터 유효성 검사 시스템 구축
-          - **성과**: 팀 프로젝트 우수상 수상
   - title: Education
     layout: list
     content:
@@ -209,7 +197,6 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       - SQL개발자(SQLD)
-      - 1종보통 운전면허
 
 # Footer
 footer_show_references: true
